@@ -46,3 +46,10 @@ YueLing 的开源插件目录。
 - 技能：`.zip`、`.md`、`.tar`、`.tar.gz`、`.tgz`
 - 扩展：`ext-*.umd.js`
 
+## 当前收录
+
+- `pdf`、`pptx`、`xlsx`：来自 [Anthropic skills](https://github.com/anthropics/skills)，对应技能目录标注 Apache-2.0。
+- `systematicDebugging`：来自 [obra/superpowers](https://github.com/obra/superpowers)，仓库采用 MIT 许可证。
+
+市场目录使用上游固定提交的 `SKILL.md` 下载地址，并记录 SHA-256；更新上游版本时应重新计算校验值后再修改 `registry.json`。
+
