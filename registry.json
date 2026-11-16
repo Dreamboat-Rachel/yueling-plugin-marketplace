@@ -1,4 +1,61 @@
 {
   "version": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": 1,
+      "type": "skill",
+      "identifier": "pdf",
+      "name": "PDF 文档处理",
+      "description": "用于读取、提取、合并、拆分、旋转、加水印、填写表单和 OCR PDF 文件的开源技能。来源：Anthropic skills。",
+      "version": "1.0.0",
+      "author": "Anthropic",
+      "homepage": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+      "downloadUrl": "https://raw.githubusercontent.com/anthropics/skills/2c5958ecac7cee2b583967a2c4981d0f4a75c579/skills/pdf/SKILL.md",
+      "fileName": "pdf.md",
+      "sha256": "d1c7caf5f35eb7d37877dd7fc33a095037be2b34fb5d2f7f4d43bde3165bb4ee",
+      "tags": [{ "text": "文档", "color": "#2563eb" }, { "text": "Apache-2.0", "color": "#16a34a" }]
+    },
+    {
+      "id": 2,
+      "type": "skill",
+      "identifier": "pptx",
+      "name": "PPTX 演示文稿处理",
+      "description": "用于创建、读取、修改和处理 PowerPoint 演示文稿的开源技能。来源：Anthropic skills。",
+      "version": "1.0.0",
+      "author": "Anthropic",
+      "homepage": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "downloadUrl": "https://raw.githubusercontent.com/anthropics/skills/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/pptx/SKILL.md",
+      "fileName": "pptx.md",
+      "sha256": "1b54d26d78bcb35e3c6a2c723615c4a33c29732de2e5b29c9ecf10b34fb1a2e5",
+      "tags": [{ "text": "演示文稿", "color": "#ea580c" }, { "text": "Apache-2.0", "color": "#16a34a" }]
+    },
+    {
+      "id": 3,
+      "type": "skill",
+      "identifier": "xlsx",
+      "name": "XLSX 表格处理",
+      "description": "用于创建、读取、编辑和分析电子表格文件的开源技能。来源：Anthropic skills。",
+      "version": "1.0.0",
+      "author": "Anthropic",
+      "homepage": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+      "downloadUrl": "https://raw.githubusercontent.com/anthropics/skills/1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064/skills/xlsx/SKILL.md",
+      "fileName": "xlsx.md",
+      "sha256": "f32b1c2b5d5d31e02964df110d6489613d9345f86830c118cfe24159d8448ce6",
+      "tags": [{ "text": "表格", "color": "#16a34a" }, { "text": "Apache-2.0", "color": "#16a34a" }]
+    },
+    {
+      "id": 4,
+      "type": "skill",
+      "identifier": "systematicDebugging",
+      "name": "系统化调试",
+      "description": "帮助定位问题、收集证据并按步骤修复软件缺陷的开源技能。来源：Superpowers。",
+      "version": "1.0.0",
+      "author": "obra/superpowers",
+      "homepage": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging",
+      "downloadUrl": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/systematic-debugging/SKILL.md",
+      "fileName": "systematicDebugging.md",
+      "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+      "tags": [{ "text": "开发", "color": "#7c3aed" }, { "text": "MIT", "color": "#16a34a" }]
+    }
+  ]
 }
